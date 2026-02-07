@@ -57,7 +57,7 @@ export default function Home() {
 
           <button
             className="yes"
-            style={{ transform: scale(${yesSize}) }}
+            style={{ transform: `scale(${yesSize})` }}
             onClick={handleYes}
           >
             YES 💖
